@@ -1,0 +1,14 @@
+{
+  "name": "drawing-image-export",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --noEmit && esbuild main.ts --bundle --external:obsidian --format=cjs --target=es2022 --outfile=main.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "obsidian": "1.14.4",
+    "typescript": "6.0.3"
+  }
+}

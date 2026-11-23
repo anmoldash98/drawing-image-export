@@ -1,0 +1,10 @@
+{
+  "id": "drawing-image-export",
+  "name": "Drawing Image Export",
+  "version": "0.1.0",
+  "minAppVersion": "1.10.0",
+  "description": "Export the open tldraw drawing as SVG or PNG when it saves.",
+  "author": "Anmol Dash",
+  "authorUrl": "https://github.com/anmoldash98",
+  "isDesktopOnly": true
+}
