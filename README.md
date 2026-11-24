@@ -1,12 +1,12 @@
-# Drawing Image Export
+# Automated Drawing Exporter
 
-Drawing Image Export is an independent desktop companion for the [tldraw community plugin](https://community.obsidian.md/plugins/tldraw). It uses the renderer in the installed plugin to save transparent SVG and PNG images beside your editable drawings.
+Automated Drawing Exporter is an independent desktop companion for the [tldraw community plugin](https://community.obsidian.md/plugins/tldraw). It uses the renderer in the installed plugin to save transparent SVG and PNG images beside your editable drawings.
 
 ## Install and use
 
 1. Install and enable [tldraw](https://community.obsidian.md/plugins/tldraw) in your vault.
 2. Download `main.js` and `manifest.json` from the [latest release](https://github.com/anmoldash98/drawing-image-export/releases/latest) and put them in `.obsidian/plugins/drawing-image-export/`.
-3. Enable **Drawing Image Export** under **Settings → Community plugins**.
+3. Enable **Automated Drawing Exporter** under **Settings → Community plugins**.
 4. Turn on **Auto-export SVG**, **Auto-export PNG**, or both in the companion's settings.
 5. Edit a drawing in its own tab and keep the editor focused until it saves. For a source named `Drawing.md`, embed the output with `![[Drawing.md.svg]]` or `![[Drawing.md.png]]`.
 

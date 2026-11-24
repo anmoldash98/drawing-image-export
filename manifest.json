@@ -1,9 +1,9 @@
 {
   "id": "drawing-image-export",
-  "name": "Drawing Image Export",
-  "version": "0.1.0",
+  "name": "Automated Drawing Exporter",
+  "version": "0.1.1",
   "minAppVersion": "1.10.0",
-  "description": "Export the open tldraw drawing as SVG or PNG when it saves.",
+  "description": "Automatically export tldraw drawings as SVG and PNG.",
   "author": "Anmol Dash",
   "authorUrl": "https://github.com/anmoldash98",
   "isDesktopOnly": true
