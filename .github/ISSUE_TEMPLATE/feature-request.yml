@@ -1,0 +1,18 @@
+name: Feature request
+description: Suggest an improvement to Automated Drawing Exporter.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What are you trying to do?
+      description: Describe your workflow and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would you like to see?
+      description: Describe the change you'd like and how you would use it.
+    validations:
+      required: true

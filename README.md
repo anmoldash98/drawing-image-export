@@ -4,11 +4,9 @@ Automated Drawing Exporter is an independent desktop companion for the [tldraw c
 
 ## Install and use
 
-1. Install and enable [tldraw](https://community.obsidian.md/plugins/tldraw) in your vault.
-2. Download `main.js` and `manifest.json` from the [latest release](https://github.com/anmoldash98/drawing-image-export/releases/latest) and put them in `.obsidian/plugins/drawing-image-export/`.
-3. Enable **Automated Drawing Exporter** under **Settings → Community plugins**.
-4. Turn on **Auto-export SVG**, **Auto-export PNG**, or both in the companion's settings.
-5. Edit a drawing in its own tab and keep the editor focused until it saves. For a source named `Drawing.md`, embed the output with `![[Drawing.md.svg]]` or `![[Drawing.md.png]]`.
+1. In Obsidian Desktop, open **Settings → Community plugins → Browse**. Install and enable [tldraw](https://community.obsidian.md/plugins/tldraw) and [Automated Drawing Exporter](https://community.obsidian.md/plugins/drawing-image-export).
+2. Open **Settings → Automated Drawing Exporter** and turn on **Auto-export SVG**, **Auto-export PNG**, or both.
+3. Edit a drawing in its own tab and keep the editor focused until it saves. For a source named `Drawing.md`, embed the exported image with `![[Drawing.md.svg]]` or `![[Drawing.md.png]]`.
 
 Each export uses the visible page. Clearing that page writes a transparent image. The companion protects existing files using checksums recorded on the device that generated them. A manually edited, preexisting, or synced image may be skipped. When a source is renamed, further saves use its new name and prior images stay at their previous paths.
 
@@ -21,3 +19,7 @@ The companion reads and writes files in the vault and stores export checksums in
 ## Build
 
 Run `npm ci` and `npm run build` to generate `main.js`.
+
+## Feedback
+
+[Report a bug or request a feature](https://github.com/anmoldash98/drawing-image-export/issues/new/choose) on GitHub.

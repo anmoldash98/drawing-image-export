@@ -1,0 +1,29 @@
+name: Bug report
+description: Report something that isn't working in Automated Drawing Exporter.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe what went wrong and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If the issue involves an export, include the drawing type and whether you enabled SVG, PNG, or both.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions and operating system
+      description: Include the versions of Obsidian, tldraw, and Automated Drawing Exporter if you know them.
+      placeholder: macOS, Obsidian 1.15.1, tldraw 1.35.1, Automated Drawing Exporter 0.1.1
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Add any relevant error messages or screenshots. Remove private vault content first.
